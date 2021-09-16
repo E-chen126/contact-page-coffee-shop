@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+header {
+  background-color: #fee6cc;
+}
+header .navbar-brand {
+  flex: 1;
+}
+header nav {
+  width: 80%;
+  margin: 0 auto;
+}
+header nav img {
+  width: 50%;
+  max-width: 150px;
+}
+header nav .nav-items {
+  justify-content: flex-end;
+}
+header nav .navbar-nav {
+  align-items: center;
+  /* Changed the color of the Menu Button -Yi */
+}
+header nav .navbar-nav .btn-secondary {
+  color: #fff;
+  background-color: #a85000;
+  border-color: #a85000;
+}
+/* Changed the border color of the hambergur menu to match the Logo - Yi*/
+.navbar-light .navbar-toggler {
+  color: #5b2c02;
+  border-color: #5b2c02;
+}
+/* Changed the link color of the current page - Yi*/
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #e2780e;
+  text-decoration: underline;
+  font-weight: bold;
+}
+#contactform .effect-1 {
+  border: 0;
+  outline: none;
+  width: 100%;
+  border-bottom: 2px solid #000;
+}
+#contactform input,
+#contactform textarea {
+  background-color: transparent;
+}
+#contactform ::placeholder {
+  color: #000;
+  opacity: 1;
+}
+#contactform .btn-primary {
+  color: #fff;
+  background-color: #a85000;
+  border-color: #a85000;
+}
+.bi {
+  font-size: 1.7rem;
+  color: #014a5e;
+}
+.contactbg {
+  position: relative;
+  /* overflow: hidden; */
+}
+.contactbg h2 {
+  color: #000;
+  font-family: "roboto";
+}
+.contactbg p {
+  color: #000;
+  font-family: "urbanist";
+}
+p.lead.font-weight-bold.text-center.w-responsive.mx-auto.mb-5.pt-3 {
+  max-width: 75%;
+}
+.contactbg:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  background-image: url("images/contactimg.jpg");
+  background-position: 20% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-content {
+  z-index: 2;
+  position: relative;
+}
+footer {
+  background-color: #e7e7e7;
+}
+footer figure {
+  margin: auto;
+}
+footer figure img {
+  width: 100px;
+}
+footer p {
+  font-family: "urbanist";
+  /* font-size: 0.75em; */
+  font-size: 0.95em;
+}
+footer i {
+  color: #014a5e;
+}
+.contact-site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.contactbg {
+  flex: 1;
+}
